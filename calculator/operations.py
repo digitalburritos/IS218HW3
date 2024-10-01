@@ -7,7 +7,7 @@ def subtract (a, b):
 def multiply (a, b):
     return a * b
 
-def divide (a, b):
+def divide (a, b): #throw divide by zero error
     if b == 0:
         raise ZeroDivisionError('Cannot divide by zero')
     return a / b
